@@ -139,7 +139,7 @@ mobile-app/
 - **React Native 0.73** - Cross-platform mobile development
 - **Expo 50** - Development platform and tools
 - **TypeScript** - Type-safe JavaScript
-- **React Navigation 4** - Navigation between screens
+- **React Navigation 6** - Navigation between screens
 - **React Native Maps** - Map integration
 - **Expo Location** - Location services and GPS
 
