@@ -1,9 +1,9 @@
-import React from 'react';
-import { View, Text, Button, Alert, StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, Button, Alert, StyleSheet } from "react-native";
 
 export default function App() {
   const handlePanic = () => {
-    Alert.alert('🚨 Emergencia', 'Se ha enviado una solicitud de rescate');
+    Alert.alert("🚨 Emergencia", "Se ha enviado una solicitud de rescate");
   };
 
   return (
@@ -16,9 +16,13 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f5f5f5'
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f5f5f5",
   },
   title: {
-    fontSize: 24, marginBottom: 20
-  }
+    fontSize: 24,
+    marginBottom: 20,
+  },
 });
